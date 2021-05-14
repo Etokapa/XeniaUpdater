@@ -15,7 +15,7 @@ namespace XeniaUpdater
         //Important strings
         //updaterBranch on Form2.cs is also important :)
         const string masterURL = "https://ci.appveyor.com/api/projects/benvanik/xenia/artifacts/xenia_master.zip?branch=master&job=Configuration%3A%20Release&pr=false";
-        const string canaryURL = "https://ci.appveyor.com/api/projects/chris-hawley/xenia-canary/artifacts/xenia_canary.zip?branch=canary_new&job=Configuration:%20Release&pr=false";
+        const string canaryURL = "https://ci.appveyor.com/api/projects/chris-hawley/xenia-canary/artifacts/xenia_canary.zip?branch=canary_pr&job=Configuration:%20Release&pr=false";
         const string masterEXE = "xenia.exe";
         const string canaryEXE = "xenia_canary.exe";
         const string masterProc = "xenia";
